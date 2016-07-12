@@ -1,0 +1,49 @@
+{
+  "name": "node-merle",
+  "version": "0.0.1",
+  "description": "A utility for cataloguing the metadata for a URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannguyen/node-merle.git"
+  },
+  "keywords": [
+    "url",
+    "metadata",
+    "readability",
+    "html-parsing",
+    "web-scraping",
+    "content-extraction",
+    "xpath"
+  ],
+  "author": "Dan Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dannguyen/node-merle/issues"
+  },
+  "homepage": "https://github.com/dannguyen/node-merle#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "handlebars": "^4.0.5",
+    "lodash": "^4.13.1",
+    "open": "0.0.5",
+    "request": "^2.73.0",
+    "selenium-webdriver": "^2.53.3",
+    "slug": "^0.9.1",
+    "unfluff": "^1.0.0",
+    "url-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-jest": "^12.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "jest-cli": "^12.1.1",
+    "temp": "^0.8.3"
+  }
+}
