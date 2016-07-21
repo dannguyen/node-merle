@@ -26,10 +26,12 @@
   },
   "homepage": "https://github.com/dannguyen/node-merle#readme",
   "dependencies": {
+    "chromedriver": "^2.21.2",
     "commander": "^2.9.0",
     "handlebars": "^4.0.5",
     "lodash": "^4.13.1",
     "open": "0.0.5",
+    "phantom": "^2.1.11",
     "request": "^2.73.0",
     "selenium-webdriver": "^2.53.3",
     "slug": "^0.9.1",
