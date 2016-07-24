@@ -19,7 +19,9 @@ const HtmlFixture = `
 describe('Extracting of imageUrl', () => {
   let extractor = new WebpageExtractor(HtmlFixture);
 
-  it('extracts favIconFromLink ', () => {
-    expect(extractor.favIconFromLink()).toEqual('https://www.example.com/favicon.ico');
+  it('extracts iconFromLinkShortcut ', () => {
+    expect(extractor.iconFromLinkShortcut()).toEqual('https://www.example.com/favicon.ico');
   });
+
+  xit('extracts iconFromDefaultFavicon', () => {})
 })
