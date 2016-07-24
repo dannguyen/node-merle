@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/dannguyen/node-merle#readme",
   "dependencies": {
+    "cheerio": "^0.20.0",
     "chromedriver": "^2.21.2",
     "commander": "^2.9.0",
     "handlebars": "^4.0.5",
